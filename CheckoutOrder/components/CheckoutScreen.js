@@ -555,7 +555,7 @@ const CheckoutScreen = ({ route, navigation, onClearCart }) => {
                         style={[
                           styles.paymentMethodItem,
                           selectedPaymentMethod?.id === item.id && styles.selectedPaymentMethodItem,
-                          { width: 160, height: 90 },
+                          { width: 155, height: 90 },
                         ]}
                       >
                         <Text style={styles.paymentMethodText}>{item.name}</Text>

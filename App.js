@@ -156,6 +156,9 @@ const AppNavigator = () => {
 };
 
 const App = () => {
+
+  console.disableYellowBox = true;
+
   return (
     <ReduxProvider store={store}>
       <UserProvider>
@@ -169,6 +172,8 @@ const App = () => {
   );
 };
 
+
+
 const StyledButton = styled.TouchableOpacity`
   background-color: black;
   padding: 10px;
@@ -180,3 +185,4 @@ const ButtonText = styled.Text`
 `;
 
 export default App;
+
